@@ -1,0 +1,4962 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "https://saref.etsi.org/core", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/wearpghdprovo", "https://saref.etsi.org/saref4wear", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/prov", "https://w3id.org/pghdprovo", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1" ],
+    "title" : {
+      "undefined" : "Wearable PGHD-PROVO Ontology"
+    },
+    "iri" : "https://w3id.org/wearpghdprovo#",
+    "version" : "1.0.0",
+    "author" : [ "Abdullahi Abubakar Kawu" ],
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Abdullahi Abubakar Kawu",
+        "type" : "label"
+      } ],
+      "createdWith" : [ {
+        "identifier" : "createdWith",
+        "language" : "undefined",
+        "value" : "https://chowlk.linkeddata.es/",
+        "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Wearable PGHD-PROVO Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "1",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "2",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:Literal"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "0",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "1",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "2",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Person",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "annotations" : {
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "agents-responsibility",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "dm" : [ {
+        "identifier" : "dm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-agent",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Person agents are people.",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "expanded",
+        "type" : "label"
+      } ],
+      "n" : [ {
+        "identifier" : "n",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-types",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person",
+      "undefined" : "Person"
+    },
+    "subClasses" : [ "8", "32", "33", "34" ],
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Agent",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "annotations" : {
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "agents-responsibility",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "dm" : [ {
+        "identifier" : "dm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-agent",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity. ",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "n" : [ {
+        "identifier" : "n",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-Agent",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Agent",
+      "undefined" : "Agent"
+    },
+    "subClasses" : [ "9", "62", "63" ],
+    "attributes" : [ "external" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#DailyActivity",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DailyActivity",
+      "undefined" : "Daily Activity"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/wearpghdprovo#DailyActivity1",
+      "baseIri" : "https://w3id.org/wearpghdprovo",
+      "labels" : {
+        "IRI-based" : "DailyActivity1"
+      }
+    }, {
+      "iri" : "https://w3id.org/wearpghdprovo#ActivityLevel1",
+      "baseIri" : "https://w3id.org/wearpghdprovo",
+      "labels" : {
+        "IRI-based" : "ActivityLevel1"
+      }
+    }, {
+      "iri" : "https://w3id.org/wearpghdprovo#Steps1",
+      "baseIri" : "https://w3id.org/wearpghdprovo",
+      "labels" : {
+        "IRI-based" : "Steps1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Physical activities carried out during the day."
+    },
+    "id" : "13",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#Programme",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Programme",
+      "undefined" : "programme"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/pghdprovo#Programme1",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "Programme1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Refers to a health plan or program the person is following, helping to understand the data in relation to their health goals."
+    },
+    "attributes" : [ "external" ],
+    "id" : "100",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#PGHD",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PGHD",
+      "undefined" : "PGHD"
+    },
+    "subClasses" : [ "13", "11", "73" ],
+    "comment" : {
+      "undefined" : "Patient Generated Health Data (PGHD) a term referring to data that patients (or their caregivers) collect from home or any location outside the clinical environment."
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#Rating",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rating",
+      "undefined" : "rating"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/pghdprovo#Rating1",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "Rating1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Includes scores or opinions about the measurement, like how good the data is or a personal rating of a health condition."
+    },
+    "attributes" : [ "external" ],
+    "id" : "120",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#PatientRelative",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PatientRelative",
+      "undefined" : "Patient Relative"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/pghdprovo#PatientRelative1",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "PatientRelative1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A Patient relative or friend who helps to collect or transmit data."
+    },
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#Application",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Application",
+      "undefined" : "Application"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/pghdprovo#application1",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "application1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A software application is a software that can be directly executed by some processing unit."
+    },
+    "attributes" : [ "external" ],
+    "id" : "122",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#PGHDRequest",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PGHDRequest",
+      "undefined" : "PGHD Request"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/pghdprovo#PGHDRequest1",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "PGHDRequest1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A request made by a practitioner to obtain patient health data generated by wearable device or software application."
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#Practitioner",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/NCIT_C51846",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Practitioner",
+      "undefined" : "Practitioner"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/pghdprovo#Practitioner1",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "Practitioner1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A person professionally engaged medical practice who is appointed to a post or duties.\n[Definition Source: NCI]"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://saref.etsi.org/saref4wear/Wearable",
+    "baseIri" : "https://saref.etsi.org/saref4wear",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wearable",
+      "en" : "Wearable device"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/wearpghdprovo#FitbitWearable",
+      "baseIri" : "https://w3id.org/wearpghdprovo",
+      "labels" : {
+        "IRI-based" : "FitbitWearable"
+      }
+    } ],
+    "comment" : {
+      "en" : "A wearable device is a device that is intended to be located near, on or in an organism."
+    },
+    "attributes" : [ "external" ],
+    "id" : "130",
+    "superClasses" : [ "131" ]
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#Patient",
+    "equivalent" : [ "8" ],
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/NCIT_C16960",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Patient",
+      "undefined" : "Patient"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/pghdprovo#Patient1",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "Patient1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A person who receives medical attention, care, or treatment, or who is registered with medical professional or institution with the purpose to receive medical care when necessary."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "33",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Organization",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "annotations" : {
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "agents-responsibility",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "dm" : [ {
+        "identifier" : "dm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-agent",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "An organization is a social or legal institution such as a company, society, etc.",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "expanded",
+        "type" : "label"
+      } ],
+      "n" : [ {
+        "identifier" : "n",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-types",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Organization",
+      "undefined" : "Organization"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/pghdprovo#Organisation1",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "Organisation1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#VitalSign",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VitalSign",
+      "undefined" : "Vital Sign"
+    },
+    "comment" : {
+      "undefined" : "Includes important health measurements like heart rate, blood pressure, temperature, and breathing rate, which help assess how healthy a person is."
+    },
+    "id" : "73",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Activity",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "annotations" : {
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "entities-activities",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "dm" : [ {
+        "identifier" : "dm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-Activity",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities.",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "constraints" : [ {
+        "identifier" : "constraints",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#prov-dm-constraints-fig",
+        "type" : "label"
+      } ],
+      "n" : [ {
+        "identifier" : "n",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-Activity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Activity",
+      "undefined" : "Activity"
+    },
+    "subClasses" : [ "17" ],
+    "attributes" : [ "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#State",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "State",
+      "undefined" : "state"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/pghdprovo#State1",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "State1"
+      }
+    }, {
+      "iri" : "https://w3id.org/pghdprovo#State2",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "State2"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Informaion about the person's condition when the data was recorded, such as whether they were resting, active, sleeping, or exercising."
+    },
+    "attributes" : [ "external" ],
+    "id" : "133",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Entity",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "annotations" : {
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "entities-activities",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "dm" : [ {
+        "identifier" : "dm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-entity",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "An entity is a physical, digital, conceptual, or other kind of thing with some fixed aspects; entities may be real or imaginary. ",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "constraints" : [ {
+        "identifier" : "constraints",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-constraints-20130430/#prov-dm-constraints-fig",
+        "type" : "label"
+      } ],
+      "n" : [ {
+        "identifier" : "n",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-Entity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Entity",
+      "undefined" : "Entity"
+    },
+    "subClasses" : [ "101", "131", "122", "20" ],
+    "attributes" : [ "external" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://saref.etsi.org/saref4wear/User",
+    "equivalent" : [ "33" ],
+    "baseIri" : "https://saref.etsi.org/saref4wear",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "User",
+      "en" : "User"
+    },
+    "comment" : {
+      "en" : "A user is an entity using a wearable."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#SoftwareAgent",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "annotations" : {
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "agents-responsibility",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "dm" : [ {
+        "identifier" : "dm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-agent",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A software agent is running software.",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "expanded",
+        "type" : "label"
+      } ],
+      "n" : [ {
+        "identifier" : "n",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/2013/REC-prov-n-20130430/#expression-types",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SoftwareAgent",
+      "undefined" : "SoftwareAgent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "195",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "164",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "199",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#Sleep",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sleep",
+      "undefined" : "Sleep"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/wearpghdprovo#Sleep1",
+      "baseIri" : "https://w3id.org/wearpghdprovo",
+      "labels" : {
+        "IRI-based" : "Sleep1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Data related to user sleep."
+    },
+    "id" : "11",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "205",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "206",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "207",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "198",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "211",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "155",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#Protocol",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Protocol",
+      "undefined" : "protocol"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/pghdprovo#Protocol1",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "Protocol1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Describes the steps or rules followed when collecting the data, such as instructions for using a device or following a specific health procedure."
+    },
+    "attributes" : [ "external" ],
+    "id" : "83",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#ContextualInfo",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ContextualInfo",
+      "undefined" : "contextual information"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/pghdprovo#ContextualDataInfo1",
+      "baseIri" : "https://w3id.org/pghdprovo",
+      "labels" : {
+        "IRI-based" : "ContextualDataInfo1"
+      }
+    } ],
+    "subClasses" : [ "120", "100", "83", "133" ],
+    "comment" : {
+      "undefined" : "Contextual Information provides to extra details that help explain the measurement, like the environment, device settings, or the activity the person was doing when the data was taken."
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "222",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "223",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "185",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "229",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "209",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "220",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "115",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "219",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "232",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "203",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "234",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "201",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "244",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "213",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "137",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "242",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "216",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "218",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "191",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "225",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "109",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "246",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "256",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "124",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://saref.etsi.org/core/Device",
+    "baseIri" : "https://saref.etsi.org/core",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://saref.etsi.org/core/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Device",
+      "en" : "Device"
+    },
+    "subClasses" : [ "130" ],
+    "comment" : {
+      "en" : "A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. For example, a washing machine is designed to wash (task) and to accomplish this task it performs a start and stop function."
+    },
+    "attributes" : [ "external" ],
+    "id" : "131",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "204",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "167",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "157",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "159",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "237",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  } ],
+  "property" : [ {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "158",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "166",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "173",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "174",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "175",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "176",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "177",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "178",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "179",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "180",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "181",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "182",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "183",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "184",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "186",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "187",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "188",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "189",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "190",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "193",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "194",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "196",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "197",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "200",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "208",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "210",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "212",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "214",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "215",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "192",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "221",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "224",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "227",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "230",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "231",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "233",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "236",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "238",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "240",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "241",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "243",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "245",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "247",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "248",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "249",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "239",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "251",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "252",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "253",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "254",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "255",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "257",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "258",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "259",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "260",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "261",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "262",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#hasSleepStage",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasSleepStage",
+      "undefined" : "has sleep stage"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Record of sleep Stages."
+    },
+    "attributes" : [ "object" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#caloriesOut",
+    "equivalent" : [ "15" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "14",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "caloriesOut",
+      "undefined" : "calories out"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Total calories burned. Obtained by adding active calories and passive calories"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#description",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "description",
+      "undefined" : "description"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "Provide more information about an activity."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#value",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "value",
+      "undefined" : "value"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "The 'value' property represents the quantity measured or observed, typically recorded by a health or activity monitoring device."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#efficiency",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "23",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "efficiency",
+      "undefined" : "efficiency"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "A relative measurement of the time spent asleep to the total time spent in bed."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#calories",
+    "equivalent" : [ "26" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "25",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "calories",
+      "undefined" : "calories"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The number of calories burned associated with an activity."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#requestId",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "requestId",
+      "undefined" : "activity id"
+    },
+    "cardinality" : "1",
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "Log id for an activity."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#dataSource",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "dataSource",
+      "undefined" : "data source"
+    },
+    "cardinality" : "1",
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "An entity that produce a digital data."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#startTime",
+    "equivalent" : [ "47" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "36",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "startTime",
+      "undefined" : "start time"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Time the sleep log begins. Also as \"sleep time\" Measurement of the time at which sleep begins."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#endedAtTime",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "50",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "en",
+        "value" : "It is the intent that the property chain holds: (prov:qualifiedEnd o prov:atTime) rdfs:subPropertyOf prov:endedAtTime.",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "entities-activities",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#End",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#atTime",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "endedAtTime",
+      "undefined" : "endedAtTime"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "The time at which an activity ended. See also prov:startedAtTime.",
+      "undefined" : "The number of calories burned associated with the\nactivity."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#lightsleepduration",
+    "equivalent" : [ "53" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "52",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "lightsleepduration",
+      "undefined" : "light sleep duration"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Duration in light sleep state."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "51"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#veryActive",
+    "equivalent" : [ "55" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "veryActive",
+      "undefined" : "very active"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Duration of very active activities. Activities with a Metabolic Equivalents (MET) value greater than 6.0."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/givenName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "57",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "givenName",
+      "undefined" : "Given name"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "The given name of some person."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#generatedAtTime",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "60",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "en",
+        "value" : "It is the intent that the property chain holds: (prov:qualifiedGeneration o prov:atTime) rdfs:subPropertyOf prov:generatedAtTime.",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "entities-activities",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "expanded",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#atTime",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Generation",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "generatedAtTime",
+      "undefined" : "generatedAtTime"
+    },
+    "domain" : "59",
+    "comment" : {
+      "en" : "The time at which an entity was completely created and is available for use."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#vitalsProperty",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "vitalsProperty"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#wasAuthorizedBy",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "wasAuthorizedBy",
+      "undefined" : "was authorized by"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "A person who grant access to data requested."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#wakeup_latency",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "0",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wakeup_latency",
+      "undefined" : "wakeup latency"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Time spent in bed after waking up."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#orgId",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "orgId",
+      "undefined" : "organization id"
+    },
+    "domain" : "62",
+    "comment" : {
+      "undefined" : "An identifier for an organization."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#systolic_blood_pressure",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "systolic_blood_pressure",
+      "undefined" : "systolic blood pressure"
+    },
+    "domain" : "73",
+    "comment" : {
+      "undefined" : "Systolic Blood pressure measured in millimeters of mercury (mmHg)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#sedentary",
+    "equivalent" : [ "76" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "sedentary",
+      "undefined" : "sedentary"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Duration of sedentary activities. Activities with  a Metabolic Equivalents (MET) value of less than 1.5"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#address",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "79",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.obolibrary.org/obo/NCIT_C25407",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "address",
+      "undefined" : "address"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "A standardized representation of the location of a person, business, building, or organization."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#sleepDuration",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "sleepDuration",
+      "undefined" : "sleep duration"
+    },
+    "maxCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Length of the sleep."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#bodySite",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "bodySite",
+      "undefined" : "Body Site"
+    },
+    "domain" : "83",
+    "comment" : {
+      "undefined" : "The part of the body where data is collected or which a device was placed to collect health data."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#lightlyActive",
+    "equivalent" : [ "87", "88" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "lightlyActive",
+      "undefined" : "lightly active"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Duration of light activities. Activities with a Metabolic Equivalents (MET) value of 1.5 - 3.0"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#sleep_efficiency",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "66",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sleep_efficiency",
+      "undefined" : "sleep efficiency"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "A relative measurement of the time spent asleep to the total time spent in bed."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "59",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "hadDerivation",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "derivations",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedDerivation",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Derivation",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasDerivedFrom",
+      "undefined" : "wasDerivedFrom"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "59",
+    "comment" : {
+      "en" : "The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#sedentaryMinutes",
+    "equivalent" : [ "74" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "92",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sedentaryMinutes",
+      "undefined" : "sedentary minutes"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Duration of sedentary activities. Activities with  a Metabolic Equivalents (MET) value of less than 1.5"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "76"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#asleepDuration",
+    "equivalent" : [ "95" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "asleepDuration",
+      "undefined" : "asleep duration"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Length of the sleep."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#fairlyActive",
+    "equivalent" : [ "98", "99" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "fairlyActive",
+      "undefined" : "fairly active"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Duration of fairly activities. Activities with a Metabolic Equivalents (MET) value of 3.0 - 6.0"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "96"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#role",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "role",
+      "undefined" : "role"
+    },
+    "cardinality" : "1",
+    "domain" : "34",
+    "comment" : {
+      "undefined" : "position or function within an organization"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#hasContextualInfo",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "hasContextualInfo",
+      "undefined" : "Contain Contextual Info"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Has some contextual information associated to the PGHD"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#steps",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "38",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      }, {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "steps",
+      "undefined" : "steps"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Total steps count for the day."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "105"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#minuteToFallAsleep",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "107",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "minuteToFallAsleep",
+      "undefined" : "minute to fall asleep"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The total number of minutes before the user falls asleep. Amount of time, usually recorded in minutes, between going to bed and falling asleep."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "106"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#restingHeartRate",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "109",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "restingHeartRate",
+      "undefined" : "resting heart rate"
+    },
+    "domain" : "73",
+    "comment" : {
+      "undefined" : "Resting heart rate is a measurement of how many times the person’s heart beats per minute when completely at rest."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#name",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "name",
+      "undefined" : "name"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "The 'name' property indicates the type of measurement or observation being recorded, such as heart rate, blood pressure, step count, or sleep duration."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "110"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#date",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "113",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "date",
+      "undefined" : "date"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The date the sleep was logged."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#diastolic_blood_pressure",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "115",
+    "label" : {
+      "IRI-based" : "diastolic_blood_pressure",
+      "undefined" : "diastolic blood pressure"
+    },
+    "domain" : "73",
+    "comment" : {
+      "undefined" : "Diastolic Blood pressure measured in millimeters of mercury (mmHg)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "114"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#fairlyActiveMinutes",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "116",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "fairlyActiveMinutes",
+      "undefined" : "fairly active minutes"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Duration of fairly activities. Activities with a Metabolic Equivalents (MET) value of 3.0 - 6.0"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "99"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#wasCollectedBy",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "wasCollectedBy",
+      "undefined" : "was collected by"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Ascribing a person engaged in the retrieval of health data. This could be the patient themself, a caregiver, a relative, or a friend."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#wakeupduration",
+    "equivalent" : [ "119" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "1",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wakeupduration",
+      "undefined" : "wake up duration"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "A measurement of the sum of durations of wakefulness episodes throughout the night, not including the wakefulness before sleep onset."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "118"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#hasLevel",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasLevel",
+      "undefined" : "has level"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Record of daily physical Activity levels."
+    },
+    "attributes" : [ "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#intense",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "124",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "intense",
+      "undefined" : "intense"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Duration of very active activities. Activities with a Metabolic Equivalents (MET) value greater than 6.0."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "123"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#sleep_latency",
+    "equivalent" : [ "126", "106" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "67",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sleep_latency",
+      "undefined" : "sleep latency"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The total number of minutes before the user falls asleep. Amount of time, usually recorded in minutes, between going to bed and falling asleep."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "125"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#wake",
+    "equivalent" : [ "118" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "29",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wake",
+      "undefined" : "wake"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "A measurement of the sum of durations of wakefulness episodes throughout the night, not including the wakefulness before sleep onset."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "119"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#total_sleep_time",
+    "equivalent" : [ "93" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "41",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "total_sleep_time",
+      "undefined" : "total sleep time"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Length of the sleep."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "95"
+  }, {
+    "range" : "101",
+    "domain" : "120",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "127"
+  }, {
+    "range" : "101",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
+  }, {
+    "range" : "101",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "101",
+    "domain" : "133",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
+  }, {
+    "range" : "131",
+    "domain" : "130",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "134"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#moderate",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "135",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "moderate",
+      "undefined" : "moderate"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Duration of fairly activities. Activities with a Metabolic Equivalents (MET) value of 3.0 - 6.0"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "98"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#phoneNumber",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "137",
+    "label" : {
+      "IRI-based" : "phoneNumber",
+      "undefined" : "phone number"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Phone contact number."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasInfluencedBy",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "wasInfluencedBy"
+    },
+    "domain" : "2",
+    "subproperty" : [ "138", "90", "139", "140", "141", "142" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#totalCalories",
+    "equivalent" : [ "12" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "40",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "totalCalories",
+      "undefined" : "total calories"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Total calories burned. Obtained by adding active calories and passive calories"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#startdate",
+    "equivalent" : [ "46" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "37",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "startdate",
+      "undefined" : "start date"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Time the sleep log begins. Also as \"sleep time\" Measurement of the time at which sleep begins."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasAttributedTo",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "31",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "contributed",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "agents-responsibility",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Attribution is the ascribing of an entity to an agent.",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Attribution",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedAttribution",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasAttributedTo",
+      "undefined" : "wasAttributedTo"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "59",
+    "comment" : {
+      "en" : "Attribution is the ascribing of an entity to an agent."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "139"
+  }, {
+    "range" : "59",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "59",
+    "domain" : "131",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "59",
+    "domain" : "122",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
+  }, {
+    "range" : "59",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "146"
+  }, {
+    "range" : "31",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "147"
+  }, {
+    "range" : "31",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "148"
+  }, {
+    "range" : "31",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "149"
+  }, {
+    "range" : "20",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "150"
+  }, {
+    "range" : "20",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "151"
+  }, {
+    "range" : "20",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "152"
+  }, {
+    "range" : "49",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "153"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#appName",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "appName",
+      "undefined" : "app name"
+    },
+    "domain" : "122",
+    "comment" : {
+      "undefined" : "The name of the software application utilised by a patient and practitioner."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "154"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#floors",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "floors",
+      "undefined" : "floors"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The equivalent floors climbed for the day"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "156"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#elevation",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "159",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      }, {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "elevation",
+      "undefined" : "elevation"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The elevation traveled for the day."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "158"
+  }, {
+    "range" : "9",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "9",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "161"
+  }, {
+    "range" : "9",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#orgAddress",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "164",
+    "label" : {
+      "IRI-based" : "orgAddress",
+      "undefined" : "organization address"
+    },
+    "domain" : "62",
+    "comment" : {
+      "undefined" : "Location of organisation."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "163"
+  }, {
+    "range" : "133",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#heart_rate",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "167",
+    "label" : {
+      "IRI-based" : "heart_rate",
+      "undefined" : "Heart Rate"
+    },
+    "domain" : "73",
+    "comment" : {
+      "undefined" : "Pulse or heart rate beats per minute"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "166"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#sleepProperty",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "sleepProperty"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "168"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#endTime",
+    "equivalent" : [ "171" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "170",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "endTime",
+      "undefined" : "end time"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Time the sleep log ended."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "169"
+  }, {
+    "range" : "120",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "172"
+  }, {
+    "range" : "133",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#actedOnBehalfOf",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "33",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "hadDelegate",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "agents-responsibility",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedDelegation",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Delegation",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "actedOnBehalfOf",
+      "undefined" : "actedOnBehalfOf"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "32",
+    "comment" : {
+      "en" : "An object property to express the accountability of an agent towards another agent. The subordinate agent acted on behalf of the responsible agent in an actual activity. "
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasAssociatedWith",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "31",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "wasAssociateFor",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "agents-responsibility",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Association",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasAssociatedWith",
+      "undefined" : "wasAssociatedWith"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "49",
+    "comment" : {
+      "en" : "An prov:Agent that had some (unspecified) responsibility for the occurrence of this prov:Activity."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "141"
+  }, {
+    "range" : "34",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "range" : "120",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "176"
+  }, {
+    "range" : "83",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "177"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#PGHDRequestedBy",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "PGHDRequestedBy",
+      "undefined" : "PGHD requested by"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "A object property that declares the prov:agent responsible for the initializing a request for acquiring of patient Health data."
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "178"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasAssociatedWith",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "33",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "wasAssociateFor",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "agents-responsibility",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Association",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedAssociation",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasAssociatedWith",
+      "undefined" : "wasAssociatedWith"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "17",
+    "comment" : {
+      "en" : "An prov:Agent that had some (unspecified) responsibility for the occurrence of this prov:Activity."
+    },
+    "attributes" : [ "external", "allValues", "object" ],
+    "id" : "179"
+  }, {
+    "range" : "34",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "180"
+  }, {
+    "range" : "32",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#soft",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "soft",
+      "undefined" : "soft"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Duration of light activities. Activities with a Metabolic Equivalents (MET) value of 1.5 - 3.0"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#sleepLatency",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "sleepLatency",
+      "undefined" : "sleep latency"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The total number of minutes before the user falls asleep. Amount of time, usually recorded in minutes, between going to bed and falling asleep."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#used",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "122",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "wasUsedBy",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "entities-activities",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Usage",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedUsage",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "used",
+      "undefined" : "used"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "17",
+    "comment" : {
+      "en" : "A prov:Entity that was used by this prov:Activity. For example, :baking prov:used :spoon, :egg, :oven ."
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasGeneratedBy",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "17",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "generated",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "entities-activities",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Generation",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedGeneration",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasGeneratedBy",
+      "undefined" : "wasGeneratedBy"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "20",
+    "attributes" : [ "external", "allValues", "object" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/gender",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "185",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "gender",
+      "undefined" : "gender"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "The gender of this Agent (typically but not necessarily 'male' or 'female')."
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "184"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#wasAuthorizedBy",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "wasAuthorizedBy",
+      "undefined" : "was authorized by"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "A person who grant access to data requested."
+    },
+    "attributes" : [ "external", "allValues", "object" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "130",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "hadDerivation",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "derivations",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedDerivation",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Derivation",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasDerivedFrom",
+      "undefined" : "wasDerivedFrom"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "20",
+    "comment" : {
+      "en" : "The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable."
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "187"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#wasCollectedBy",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "wasCollectedBy",
+      "undefined" : "was collected by"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Ascribing a person engaged in the retrieval of health data. This could be the patient themself, a caregiver, a relative, or a friend."
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasAttributedTo",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "33",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "contributed",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "agents-responsibility",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Attribution is the ascribing of an entity to an agent.",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Attribution",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedAttribution",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasAttributedTo",
+      "undefined" : "wasAttributedTo"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "20",
+    "comment" : {
+      "en" : "Attribution is the ascribing of an entity to an agent."
+    },
+    "attributes" : [ "external", "allValues", "object" ],
+    "id" : "189"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#sleepDate",
+    "equivalent" : [ "192", "112" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "sleepDate",
+      "undefined" : "sleep date"
+    },
+    "maxCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The date the sleep was logged."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "190"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#hasContextualInfo",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "hasContextualInfo",
+      "undefined" : "Contain Contextual Info"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Has some contextual information associated to the PGHD"
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "193"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#appName",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "195",
+    "label" : {
+      "IRI-based" : "appName",
+      "undefined" : "app name"
+    },
+    "domain" : "122",
+    "comment" : {
+      "undefined" : "The name of the software application utilised by a patient and practitioner."
+    },
+    "attributes" : [ "someValues", "external", "datatype" ],
+    "id" : "194"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasAttributedTo",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "9",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "contributed",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "agents-responsibility",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Attribution is the ascribing of an entity to an agent.",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Attribution",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedAttribution",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasAttributedTo",
+      "undefined" : "wasAttributedTo"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "122",
+    "comment" : {
+      "en" : "Attribution is the ascribing of an entity to an agent."
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "196"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#deviceName",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "198",
+    "label" : {
+      "IRI-based" : "deviceName",
+      "undefined" : "device name"
+    },
+    "domain" : "131",
+    "comment" : {
+      "undefined" : "A name for a device."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "197"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#ratingScore",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "ratingScore",
+      "undefined" : "rating score"
+    },
+    "domain" : "120",
+    "comment" : {
+      "undefined" : "The efficiency rating of an equipement or device by recognized body."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "200"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#userid",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "203",
+    "label" : {
+      "IRI-based" : "userid",
+      "undefined" : "user id"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "User identifier."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "202"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#lightlyActiveMinutes",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "204",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "lightlyActiveMinutes",
+      "undefined" : "lightly active minutes"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Duration of light activities. Activities with a Metabolic Equivalents (MET) value of 1.5 - 3.0"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#deepsleepduration",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "209",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "deepsleepduration",
+      "undefined" : "deepsleepduration"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Duration in deep sleep state."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "208"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#isAStaffOf",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "isAStaffOf",
+      "undefined" : "is a staff of"
+    },
+    "domain" : "34",
+    "comment" : {
+      "undefined" : "Shows the institution a person works."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "210"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#relationship",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "213",
+    "label" : {
+      "IRI-based" : "relationship",
+      "undefined" : "relationship"
+    },
+    "cardinality" : "1",
+    "domain" : "32",
+    "comment" : {
+      "undefined" : "shows the relationship of a caregiver, friend, or relative to a patient."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "212"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#locationOfPatient",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "207",
+    "label" : {
+      "IRI-based" : "locationOfPatient",
+      "undefined" : "location of patient"
+    },
+    "domain" : "101",
+    "comment" : {
+      "undefined" : "Location of a patient during data collection."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "214"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#programmeName",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "216",
+    "label" : {
+      "IRI-based" : "programmeName",
+      "undefined" : "programme name"
+    },
+    "domain" : "100",
+    "comment" : {
+      "undefined" : "The treatment programme associated with the PGHD request."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "215"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#posture",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "218",
+    "label" : {
+      "IRI-based" : "posture",
+      "undefined" : "posture"
+    },
+    "domain" : "133",
+    "comment" : {
+      "undefined" : "The body position of the patient during data collection."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "217"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#activityCalories",
+    "equivalent" : [ "24" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "219",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activityCalories",
+      "undefined" : "actvity calories"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The number of calories burned associated with an activity."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#veryActiveMinutes",
+    "equivalent" : [ "54" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "45",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "veryActiveMinutes",
+      "undefined" : "very active minutes"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "Duration of very active activities. Activities with a Metabolic Equivalents (MET) value greater than 6.0."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#dateOfSleep",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "220",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "dateOfSleep",
+      "undefined" : "date of sleep"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The date the sleep was logged."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "192"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#deviceModel",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "211",
+    "label" : {
+      "IRI-based" : "deviceModel",
+      "undefined" : "device model"
+    },
+    "domain" : "131",
+    "comment" : {
+      "undefined" : "A unique number or name given by a device manufacturer to devices that corresponds to a certain characteristics."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "221"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#rem",
+    "equivalent" : [ "226" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "225",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "rem",
+      "undefined" : "rem"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "A stage of sleep characterized by rapid movements of the eye and low voltage fast pattern EEG. It is usually associated with dreaming."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "224"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/age",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "223",
+    "label" : {
+      "IRI-based" : "age"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "227"
+  }, {
+    "range" : "133",
+    "domain" : "120",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "228"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#startedAtTime",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "229",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "en",
+        "value" : "It is the intent that the property chain holds: (prov:qualifiedStart o prov:atTime) rdfs:subPropertyOf prov:startedAtTime.",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "entities-activities",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#atTime",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Start",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "startedAtTime",
+      "undefined" : "startedAtTime"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "The time at which an activity started. See also prov:endedAtTime."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "230"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#used",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "59",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "wasUsedBy",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "entities-activities",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Usage",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedUsage",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "used",
+      "undefined" : "used"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "49",
+    "comment" : {
+      "en" : "A prov:Entity that was used by this prov:Activity. For example, :baking prov:used :spoon, :egg, :oven ."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "140"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#sleepEfficiency",
+    "equivalent" : [ "89", "22" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "sleepEfficiency",
+      "undefined" : "sleep efficiency"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "A relative measurement of the time spent asleep to the total time spent in bed."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "231"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#exerciseState",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "206",
+    "label" : {
+      "IRI-based" : "exerciseState",
+      "undefined" : "exercise state"
+    },
+    "domain" : "133",
+    "comment" : {
+      "undefined" : "exercise state."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "233"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#PGHDRequestedBy",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "PGHDRequestedBy",
+      "undefined" : "PGHD requested by"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "A object property that declares the prov:agent responsible for the initializing a request for acquiring of patient Health data."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "235"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#unit",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "unit",
+      "undefined" : "unit"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "The 'unit' property specifies the metric or unit of measurement associated with the observed value."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "236"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#enddate",
+    "equivalent" : [ "169" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "237",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "enddate",
+      "undefined" : "end date"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Time the sleep log ended."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "171"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#wakeupLatency",
+    "equivalent" : [ "69", "239" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "wakeupLatency",
+      "undefined" : "wakeup latency"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Time spent in bed after waking up."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "238"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#breathingRate",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "232",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "breathingRate",
+      "undefined" : "breathing rate"
+    },
+    "domain" : "73",
+    "comment" : {
+      "undefined" : "The average number of breaths taken per minute"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "240"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#orgName",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "242",
+    "label" : {
+      "IRI-based" : "orgName",
+      "undefined" : "organization name"
+    },
+    "domain" : "62",
+    "comment" : {
+      "undefined" : "The name of the organization where a practitioner belongs."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#generated",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "generated"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "243"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/birthday",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "222",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "birthday",
+      "undefined" : "birthday"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "The birthday of this Agent, represented in mm-dd string form, eg. '12-31'."
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "245"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#actedOnBehalfOf",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "31",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "hadDelegate",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "agents-responsibility",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedDelegation",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Delegation",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "actedOnBehalfOf",
+      "undefined" : "actedOnBehalfOf"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "31",
+    "comment" : {
+      "en" : "An object property to express the accountability of an agent towards another agent. The subordinate agent acted on behalf of the responsible agent in an actual activity. "
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasGeneratedBy",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "49",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "generated",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "entities-activities",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Generation",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedGeneration",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasGeneratedBy",
+      "undefined" : "wasGeneratedBy"
+    },
+    "superproperty" : [ "91" ],
+    "domain" : "59",
+    "attributes" : [ "external", "object" ],
+    "id" : "138"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#remsleepduration",
+    "equivalent" : [ "224" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "246",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "withings",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "remsleepduration",
+      "undefined" : "rem sleep duration"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "A stage of sleep characterized by rapid movements of the eye and low voltage fast pattern EEG. It is usually associated with dreaming."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "226"
+  }, {
+    "range" : "63",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "247"
+  }, {
+    "range" : "63",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "248"
+  }, {
+    "range" : "122",
+    "domain" : "131",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "249"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#minutesAfterWakeup",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "250",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "minutesAfterWakeup",
+      "undefined" : "minutes after wakeup"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Time spent in bed after waking up."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "239"
+  }, {
+    "range" : "101",
+    "domain" : "131",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "251"
+  }, {
+    "range" : "20",
+    "domain" : "131",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "252"
+  }, {
+    "range" : "101",
+    "domain" : "122",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "253"
+  }, {
+    "range" : "20",
+    "domain" : "122",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "254"
+  }, {
+    "range" : "20",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "255"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#light",
+    "equivalent" : [ "51" ],
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "256",
+    "annotations" : {
+      "propertySource" : [ {
+        "identifier" : "propertySource",
+        "language" : "undefined",
+        "value" : "fitbit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "light",
+      "undefined" : "light"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Duration in light sleep state."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "53"
+  }, {
+    "range" : "59",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "257"
+  }, {
+    "range" : "9",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "258"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#hasTimestamp",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "205",
+    "label" : {
+      "IRI-based" : "hasTimestamp",
+      "undefined" : "hasTimestamp"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "The 'hasTimestamp' property records the date and time when the measurement or observation was taken."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "259"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#ratingOrgName",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "244",
+    "label" : {
+      "IRI-based" : "ratingOrgName",
+      "undefined" : "rating organization name"
+    },
+    "domain" : "120",
+    "comment" : {
+      "undefined" : "Denotes the name of the organization that conducted the rating."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "260"
+  }, {
+    "iri" : "https://w3id.org/wearpghdprovo#dailyActivityProperty",
+    "baseIri" : "https://w3id.org/wearpghdprovo",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "dailyActivityProperty"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "261"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#orgEmail",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "199",
+    "label" : {
+      "IRI-based" : "orgEmail",
+      "undefined" : "organization email"
+    },
+    "domain" : "62",
+    "comment" : {
+      "undefined" : "Organization email address."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "262"
+  } ]
+}

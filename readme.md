@@ -4,7 +4,7 @@
 _DOI_: 
 
 **Overview**
-The Wearable PGHD-PROVO Ontology is an extension of the (**PGHD-PROVO Ontology**[https://w3id.org/pghdprovo]) designed to model Patient-Generated Health Data (PGHD) collected from wearable devices (e.g., Fitbit, Withings). It provides:
+The Wearable PGHD-PROVO Ontology is an extension of the (**PGHD-PROVO Ontology** [https://w3id.org/pghdprovo]) designed to model Patient-Generated Health Data (PGHD) collected from wearable devices (e.g., Fitbit, Withings). It provides:
 
 Structured representation of activity, sleep, and vital signs data.
 Provenance tracking (who collected data, when, and how).
@@ -16,7 +16,7 @@ Use Cases:
 ✔ IoT health data integration
 
 **Quick Links**
-Ontology Documentation ([https://w3id.org/wearpghdprovo]Full specification)
+Ontology Documentation ([https://w3id.org/wearpghdprovo] Full specification)
 SPARQL Endpoint (Query wearable PGHD data)
 Example Data (Sample RDF datasets)
 Cite This Work
@@ -45,6 +45,7 @@ wget https://w3id.org/wearpghdprovo/wearpghdprovo-latest.ttl
 Example: "Get sleep data for Patient1"
 
 Sparql
+
 PREFIX wearpghdprovo: <https://w3id.org/wearpghdprovo#>  
 SELECT ?sleep ?duration ?efficiency  
 WHERE {  
@@ -55,7 +56,9 @@ WHERE {
 }
 
 **3. Extend with Custom Data**
+
 turtle
+
 @prefix wearpghdprovo: <https://w3id.org/wearpghdprovo#> .  
 <#Sleep2> a wearpghdprovo:Sleep ;  
           wearpghdprovo:rem "90" ;  # REM duration in minutes  
@@ -68,10 +71,10 @@ This ontology is licensed under CC BY 4.0.
 If you use this ontology, please cite:
 
 _bibtex_
-@misc{wearpghdprovo2023,  
-  author = {Kawu, Abdullahi Abubakar},  
+@misc{wearpghdprovo,  
+  author = {Kawu, Abdullahi Abubakar; OSullivan, Dympna; Hederman, Lucy},  
   title = {Wearable PGHD-PROVO Ontology},  
-  year = {2023},  
+  year = {2025},  
   publisher = {GitHub},  
   url = {https://github.com/abdullahikawu/wearpghdprovo}  
 }

@@ -1,15 +1,13 @@
 **A Semantic Framework for Wearable-Generated Patient Health Data**
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) 
 
-_License_: 
 _DOI_: 
 
 **Overview**
-The Wearable PGHD-PROVO Ontology is an extension of the PGHD-PROVO Ontology designed to model Patient-Generated Health Data (PGHD) collected from wearable devices (e.g., Fitbit, Withings). It provides:
+The Wearable PGHD-PROVO Ontology is an extension of the (**PGHD-PROVO Ontology**[https://w3id.org/pghdprovo]) designed to model Patient-Generated Health Data (PGHD) collected from wearable devices (e.g., Fitbit, Withings). It provides:
 
 Structured representation of activity, sleep, and vital signs data.
-
 Provenance tracking (who collected data, when, and how).
-
 Vendor-neutral mappings for interoperability (Fitbit, Withings, etc.).
 
 Use Cases:
@@ -18,7 +16,7 @@ Use Cases:
 ✔ IoT health data integration
 
 **Quick Links**
-Ontology Documentation ([Full specification])
+Ontology Documentation ([https://w3id.org/wearpghdprovo]Full specification)
 SPARQL Endpoint (Query wearable PGHD data)
 Example Data (Sample RDF datasets)
 Cite This Work
